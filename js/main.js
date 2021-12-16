@@ -143,7 +143,7 @@ function fourth() {
 
 
 
-$(window).ready(()=>{
+$(window).load(()=>{
     $('.load').remove();
     $('body').css('overflow-y', 'auto')
 })
