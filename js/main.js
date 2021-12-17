@@ -1,4 +1,4 @@
-$(window).load(()=>{
+$(window).ready(()=>{
     $('.load').remove();
     $('body').css('overflow-y','auto');
 })
