@@ -4,6 +4,8 @@ $(window).ready(()=>{
     $('body').css('overflow-y', 'auto')
 })
 
+
+
 $(window).scroll(()=>{
     let wScroll = $(window).scrollTop();
     let aboutTop = $('#about').offset().top;
